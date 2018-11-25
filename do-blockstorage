@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: do-blockstorage
+  namespace: kube-system
+stringData:
+  access-token: "a2a4a808444046c11269365264f9f13c8b8af8ba9fd9bf274b88444bf6311609"
